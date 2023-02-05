@@ -1,0 +1,57 @@
+* {
+    transition: all 1s;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: calibri;
+    user-select: none;
+    background: lightsteelblue;
+}
+
+table {
+    background: slategray;
+    margin: 20px auto;
+}
+
+td {
+    border: rgba(0,0,0,0.25) 1px solid;
+    text-align: center;
+    font-size: 120%;
+    color: white;
+}
+
+#juego-nuevo, #minas, #ajustes, .sinDescubrir {
+    box-shadow: inset 3px 3px 0 0 rgba(255,255,255,0.25),
+                inset -3px -3px 0 0 rgba(0,0,0,0.25);
+}
+
+#juego-nuevo, #minas, #ajustes {
+    padding: 10px;
+    margin: 10px;
+}
+
+#juego-nuevo, #ajustes {
+    cursor: pointer;
+}
+
+#juego-nuevo {
+    background: skyblue;
+}
+
+#minas {
+    background: black;
+    color: red;
+}
+
+#ajustes {
+    background: #eee;
+}
+
+.descubierto {
+    box-shadow: inset -3px -3px 0 0 rgba(255,255,255,0.25),
+                inset 3px 3px 0 0 rgba(0,0,0,0.25);
+}
